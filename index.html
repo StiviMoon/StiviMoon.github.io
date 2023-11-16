@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- Seccion de INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="selecionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIO</a></li>
+                            <li><a href="#universidad" onclick="seleccionar(this)">UNIVERSIDAD</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!--Iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <!--Iconos de redes sociales-->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/johan-steven-rodriguez-lopez-085867298/" target="_blank"
+                            class="link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/StiviMoon" target="_blank" class="git"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/_.rodriguez.z?igshid=NzZlODBkYWE4Ng==" target="_blank"
+                            class="ing"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Desarrollador de Software</h2>
+                <span>Steven Rodríguez</span>
+                <p class="descripcion">
+                    Hola, soy Johan Steven, un estudiante apasionado de desarrollo de software y me alegra que estés
+                    visitando mi
+                    portafolio.
+                    Mi objetivo es compartir mi entusiasmo por la tecnología y mi crecimiento como estudiante en este
+                    Emocionante campo.
+                    En esta presentación, te contaré un poco sobre mí, mi trayectoria educativa y algunos de los
+                    Proyectos en los que he
+                    trabajado.
+                </p>
+                <a href="#portafolio">Portafolio</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- Seccion Sobre Mi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/web/yo.webp" alt="Foto" class="fotomia">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Johan Steven Rodríguez Lopéz</span></h2>
+            <h3 class="estudio">Desarrollador Web</h3>
+            <p>
+                Soy un apasionado de la tecnología y el desarrollo de software. Me considero muy curioso, perseverante,
+                creativo y autodidacta. Disfruto enfrentando desafíos técnicos y resolviendo problemas. Mi
+                deseo constante de aprender y mejorar me motiva a explorar nuevas tecnologías y enfoques en el
+                desarrollo de software.
+            </p>
+
+            <p>
+                Soy Autodidacta, por lo tanto he adquirido diferentes habilidades de programacion orientada al
+                Desarrollo Web.
+                A lo largo del tiempo he estudiado de manera autónoma
+                realizando cursos online y leyendo documentación.<br>
+                Adquiriendo conocimientos en el lenguaje de programacion Web mas utilizado a nivel mundial como lo es
+                Javascript, complementando conocimientos en HTML y CSS.
+            </p>
+            <h3 class="estudio">Estudiante de Desarrollo de Software</h3>
+            <p>
+                Actualmente, estoy estudiando Desarrollo de Software en la Universidad del Valle. A lo largo de
+                mi carrera académica, he adquirido una sólida base en los Fundamentos de programacíon, Como tambien el
+                pensamiento algorítmico necesario para la resolución de diversos problemas que puedan
+                presentarse.<br>
+                Mi educación me ha proporcionado las habilidades necesarias para abordar proyectos desafiantes y
+                trabajar en equipo.
+            </p>
+            <div class="descarga"><a href="/Docs/Johan Steven.pdf" download="/Docs/Johan Steven.pdf">Descargar CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion de SERVICIO-->
+    <selection id="servicios">
+        <div class="serviciosC">
+            <h3 class="titulo-seccion">
+                <b>MIS SERVICIOS</b>
+            </h3>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono1"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
+                    <h4>Diseñador UX/UI</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>ESCRITORIO</li>
+                        <li>MOVIL</li>
+                    </ul>
+                    <p>
+                        Diseñador UX/UI con la misión de crear experiencias digitales cautivadoras y funcionales. Con
+                        una sólida formación y
+                        experiencia en diseño de interfaces de usuario y experiencia de usuario, ofrezco servicios
+                        personalizados para llevar
+                        tus proyectos al siguiente nivel.
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono2"><i class="fa-solid fa-code"></i></span>
+                    <h4>Diseño de sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>React</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                    </ul>
+                    <p>
+                        Entusiasta con la misión de convertir ideas en experiencias digitales sólidas y funcionales. Con
+                        una sólida formación en
+                        desarrollo de front-end y back-end, ofrezco servicios personalizados para satisfacer tus
+                        necesidades digitales.
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono3"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
+                    <h4>Mantenimiento de Hardware</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Pc</li>
+                        <li>CPU</li>
+                        <li>Laptops</li>
+                    </ul>
+                    <p>
+                        Mantenimiento de hardware con la misión de asegurar que tus dispositivos funcionen de manera
+                        eficiente y sin problemas.
+                        Con una sólida experiencia en el mantenimiento de equipos informáticos, ofrezco servicios
+                        especializados para mantener
+                        tu hardware en la mejor forma posible.
+                    </p>
+                </div>
+            </div>
+            <h3 class="titulo-seccion2">
+                <b>Aprendiendo</b>
+            </h3>
+            <div class="sobremi">
+                <p>
+                    Mi aprecio por la autodidaxia y la mejora continua es la fuerza motriz que impulsa mi pasión por la
+                    programación. En mi
+                    trayectoria, he descubierto que aprender de forma autónoma no solo es una habilidad, sino un estilo
+                    de
+                    vida que abrazo
+                    con entusiasmo. La capacidad de explorar y asimilar nuevas tecnologías de programación diariamente
+                    no
+                    solo me ha
+                    permitido mantenerme al tanto de las últimas tendencias, sino también cultivar una mentalidad de
+                    resolución de problemas
+                    y creatividad. Cada línea de código escrita es una oportunidad para perfeccionar mis habilidades y
+                    contribuir al
+                    crecimiento constante de mi conocimiento en el vasto campo de la programación. Este enfoque
+                    autodidacta
+                    no solo me ha
+                    empoderado para abordar proyectos desafiantes, sino que también ha encendido una llama interior que
+                    me
+                    impulsa a superar
+                    mis límites y explorar nuevas fronteras tecnológicas de manera continua.
+                </p>
+
+            </div>
+
+
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono4"><i class="fa-solid fa-code"></i></span>
+                    <h4>Ciberseguridad</h4>
+
+                    <p>
+                        Aprendiz apasionado de ciberseguridad, en constante búsqueda de conocimientos y habilidades para
+                        proteger activos
+                        digitales en un mundo interconectado. Mi misión es entender y anticipar las amenazas
+                        cibernéticas, desarrollando
+                        estrategias efectivas para salvaguardar la integridad, confidencialidad y disponibilidad de la
+                        información.
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono5"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
+                    <h4>Anlisis de Datos</h4>
+
+
+                    <p>
+                        Aprendiz entusiasta de análisis de datos, en busca de conocimientos y habilidades para
+                        convertirme en un experto en la
+                        interpretación de información a través de datos. Mi misión es contribuir al proceso de toma de
+                        decisiones mediante el
+                        entendimiento y análisis de conjuntos de datos diversos.
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono6"><i class="fa-solid fa-code"></i></span>
+                    <h4>IA</h4>
+                    <p>
+                        Me encuentro inmerso en el estudio autodidacta de la inteligencia artificial. Mi enfoque implica
+                        explorar por mi cuenta
+                        los fundamentos y aplicaciones de la IA, aprovechando recursos en línea y práctica.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </selection>
+    <!---Universidad-->
+    <section id="universidad">
+        <h1 class="titulo-seccion">Aprendizajes</h1>
+        <p class="texto-aprendizaje">
+            Aqui presento los temas vistos mas relevantes desde mi punto de vista
+        </p>
+        <h2>Insercion Universitaria</h2>
+        <div class="filaU">
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Resolucion de problemas</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Resolución</p>
+                        <p>
+                            implica identificar, analizar y encontrar soluciones a situaciones desafiantes. Es un
+                            proceso
+                            que ayuda a tomar decisiones efectivas en diversas áreas de la vida. Incluye la
+                            identificación del problema, la búsqueda
+                            de soluciones y la toma de decisiones informadas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Manejo del tiempo</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Gestion</p>
+                        <p>
+                            La gestión del tiempo implica utilizar tu tiempo de manera eficiente para hacer tareas
+                            importantes y evitar
+                            distracciones, lo que te ayuda a ser más productivo y reducir el estrés.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Tecnicas de Estudio</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Estudio</p>
+                        <p>
+                            Son métodos y estrategias que los estudiantes utilizan para aprender
+                            de manera eficiente y
+                            mejorar su rendimiento académico. Estas incluyen tomar apuntes, resumir información,
+                            practicar activamente y organizar
+                            el material.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Control y Estres</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Control y Estres</p>
+                        <p>
+                            El estrés es una parte inevitable de la vida, pero nuestra capacidad para controlarlo y
+                            manejarlo puede marcar una gran
+                            diferencia en nuestra calidad de vida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contenedorBo">
+            <button class="btn btn-1" onclick="location.href='/Pages/Aprendizaje.html'">Reflexiones</button>
+            <button class="btn btn-1" onclick="location.href='/Pages/Evidencias.html'">Evidencias</button>
+        </div>
+        <div class="contenedor-skills" id="skills">
+            <h3>TECNOLOGIAS</h3>
+            <div class="contenedorH">
+                <div class="habilidadesP">
+                    <div class="skill">
+                        <div class="info">
+
+
+                            <div class="imagenC">
+                                <img src="img/web/py.webp" alt="Foto" class="python-img">
+
+                            </div>
+                            <p class="py">Python</p>
+                        </div>
+                        <div class="porcentaje">
+                            <span>95%</span>
+                        </div>
+                        <div class="barra">
+                            <div id="bd" class="barra-progresoPython"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidadesP">
+                    <div class="skill">
+                        <div class="info">
+
+                            <div class="imagenC">
+                                <img src="img/web/js.webp" alt="Foto" class="javascript-img">
+                            </div>
+                            <p class="js">Javascript</p>
+                        </div>
+                        <div class="porcentaje">
+                            <span>95%</span>
+                        </div>
+                        <div class="barra">
+                            <div id="bd" class="barra-progresoJavaScript"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidadesP">
+                    <div class="skill">
+                        <div class="info">
+
+                            <div class="imagenC">
+                                <img src="img/web/html.webp" alt="Foto" class="html-img">
+                            </div>
+                            <p class="ht">HTML</p>
+                        </div>
+                        <div class="porcentaje">
+                            <span>95%</span>
+                        </div>
+                        <div class="barra">
+                            <div id="html" class="barra-progresoHTML"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidadesP">
+                    <div class="skill">
+                        <div class="info">
+
+                            <div class="imagenC">
+                                <img src="img/web/css.webp" alt="Foto" class="css-img">
+                            </div>
+                            <p class="cs">CSS</p>
+                        </div>
+                        <div class="porcentaje">
+                            <span>95%</span>
+                        </div>
+                        <div class="barra">
+                            <div id="js" class="barra-progresoCSS"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- Secion de PORTAFOLIO -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Arte</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Pintores</p>
+                        <p>
+                            Cree un sitio web donde puedes visualizar la inforamcion de distintos artistas reconocidos
+                            como lo son Vincent Van Gog, Claude Monet y Leonardo Da Vinci.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Calculadora </p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Calculadora</p>
+                        <p>
+                            Cree una calculadora total mente funcional, con sus funcionalidades basicas, y un diseño
+                            diferente a lo convencional.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Administrador</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Tareas</p>
+                        <p>
+                            Cree un administrador de tareas, donde puedes agregar eliminar y editar tus propias tareas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Cine</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Peliculas</p>
+                        <p>
+                            Diseñe y programe un sitio web de peliculas de diferentes estudios reconocidos como los son
+                            Pixar, Studio Ghibli, Laika y Dream Works Animation. Donde podemos ver y buscar peliculas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Snake</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Snake</p>
+                        <p>
+                            Codifique el juego de Snake utilizando Python, haciendolo total mente funcional y con su
+                            respectivo sistema de puntuacion y coliciones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <p>Nimbus</p>
+                    </div>
+                    <div class="content">
+                        <p class="heading">Accesorios</p>
+                        <p>
+                            Cree y codifique un sitio web para una tienda de Accesorios elaborados a mano en Colombia,
+                            donde ocupe mis conocimientos en el desarrollo web y solucionando las necesidades de mi
+                            cliente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Secion de CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame Ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/johan.steven.rodriguez@correounivalle.edu.co" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <div class=" fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad" name="Nombre">
+                    <input type="email" placeholder="Direccion de Email" class="input-mitad" name="Email">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full" name="Tema">
+                </div>
+                <div class="fila">
+                    <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                    <input type="submit" value="Enviar" class="btn-enviar">
+                </div>
+                <input type="hidden" name="_autoresponse"
+                    value="Correo recibido con exito! Pronto esta en contacto contigo!">
+                <input type="hidden" name="_next" value="https://stivimoon.github.io/">
+
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Secion FOOTER -->
+    <footer>
+
+        <h3>Todo los Derechos reservados ©2023</h3>
+
+        <div class="redes">
+            <div class="card">
+                <a href="https://www.linkedin.com/in/johan-steven-rodriguez-lopez-085867298/" target="_blank"
+                    class="socialContainer containerTwo">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/StiviMoon" target="_blank" class="socialContainer containerOne">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://instagram.com/_.rodriguez.z?igshid=NzZlODBkYWE4Ng==" target="_blank"
+                    class="socialContainer containerThree">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.gmail.com" target="_blank" class="socialContainer containerFor">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="scrips.js"></script>
+</body>
+
+</html>

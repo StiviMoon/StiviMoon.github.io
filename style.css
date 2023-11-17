@@ -1737,7 +1737,7 @@ footer .redes {
     margin: 5px;
   }
 
-  .bodyE .contenedorEvi video {
+  .bodyE .contenedorEvi .video {
     padding: 45px;
     width: 100%;
     max-width: 800px; /* Ajusta el ancho máximo del video según tus necesidades */

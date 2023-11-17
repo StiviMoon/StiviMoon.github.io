@@ -33,7 +33,7 @@ html {
   color: rgb(255, 206, 43);
   font-weight: bold;
   letter-spacing: 5px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   margin-top: 60px;
 }
 
@@ -653,7 +653,15 @@ nav ul {
 #universidad .texto-aprendizaje {
   text-align: center;
   color: white;
-  margin-bottom: 25px;
+
+}
+#universidad .texto-aprendizaje .texto{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin: 155px;
+
 }
 
 #universidad .contenedor-skills .contenedorH {
@@ -1766,6 +1774,19 @@ footer .redes {
     border-radius: 50px;
     color: rgb(110, 88, 128);
     transition: 0.5s;
+  }
+  #universidad .texto-aprendizaje {
+    text-align: center;
+    color: white;
+  
+  }
+  #universidad .texto-aprendizaje .texto{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 25px;
+  
   }
 }
 

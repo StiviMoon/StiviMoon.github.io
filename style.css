@@ -187,6 +187,32 @@ html {
   transition: 0.5s;
 }
 
+.contenedorApren .contenedorVideos {
+  width: 100%;
+  height: 100%;
+  padding: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorApren .contenedorVideos .contenido h4{
+  text-align: center;
+  padding: 35px;
+  font-size: large;
+}
+
+.contenedorApren .contenedorVideos .contenido{
+  text-align: center;
+  padding: 15px;
+}
+
+.contenedorApren .contenedorVideos .contenido .video{
+  width: 660px;
+  height: 360px;
+}
+
+
 .contenedorApren .contenedorBo .btn:hover {
   font-size: 23px;
   cursor: pointer;
@@ -1526,6 +1552,33 @@ footer .redes {
     height: 100%;
     color: white;
   }
+
+  .contenedorApren .contenedorVideos {
+    width: 100%;
+    height: 100%;
+    padding: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedorApren .contenedorVideos .contenido h4{
+    text-align: center;
+    padding: 35px;
+  }
+  
+  .contenedorApren .contenedorVideos .contenido{
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contenedorApren .contenedorVideos .contenido .video{
+    padding: 10px;
+    width: 340px;
+    height: 100%;
+  }
+
+
 
   .contenedorApren h1 {
     text-align: center;
